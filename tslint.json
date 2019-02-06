@@ -1,0 +1,23 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
+    ],
+    "rulesDirectory": ["tslint-plugin-prettier"],
+    "rules": {
+        "prettier": [
+            true,
+            {
+                "singleQuote": true,
+                "tabWidth": 4,
+                "trailingComma": "es5"
+            }
+        ],
+        "interface-name": [true, "never-prefix"],
+        "no-console": [true, "error", "warn"],
+        "member-access": false,
+        "member-ordering": false,
+        "object-literal-sort-keys": false,
+        "variable-name": [true, "allow-leading-underscore"]
+    }
+}
